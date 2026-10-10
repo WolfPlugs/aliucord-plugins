@@ -44,7 +44,7 @@ jobs:
           cd $GITHUB_WORKSPACE/src
           chmod +x gradlew
           ./gradlew make generateUpdaterJson
-          cp **/build/*.zip $GITHUB_WORKSPACE/builds
+          cp GlobalBadges/build/*.zip clapclap/build/*.zip $GITHUB_WORKSPACE/builds
           cp build/updater.json $GITHUB_WORKSPACE/builds
       - name: Push builds
         run: |

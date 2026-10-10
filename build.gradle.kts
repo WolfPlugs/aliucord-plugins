@@ -13,6 +13,8 @@ buildscript {
 
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.4")
+        // D8 bundled with AGP 7.0 crashes on classes emitted by current javac.
+        classpath("com.android.tools:r8:8.3.37")
         // Aliucord gradle plugin which makes everything work and builds plugins
         classpath("com.aliucord:gradle:main-SNAPSHOT")
         // Kotlin support. Remove if you want to use Java

@@ -1,8 +1,6 @@
+include(":GlobalBadges")
 include(":clapclap")
-include(":Zoo")
-include(":PetPet")
-include(":Osu")
-// include(":ObamaAPI")
+// Discontinued: PetPet, ObamaAPI, Osu, Zoo. Keep these excluded from builds.
 // include(":ReplaceTimestamps")
 
 rootProject.name = "plugins"

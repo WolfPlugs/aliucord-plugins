@@ -5,8 +5,14 @@ and they suck actually they dont they gud
 
 ## Plugins
 
-- Clapclap = Get it over [here](https://github.com/Wolfkid200444/hot-plugins/tree/builds)
+- [Clapclap](https://github.com/Wolfkid200444/hot-plugins/tree/builds)
+- [Global Badges](GlobalBadges/README.md)
 
-- Zoo = Get it over [here](https://github.com/Wolfkid200444/hot-plugins/tree/builds)
+## Discontinued plugins
 
-- PetPet = Get it over [here](https://github.com/Wolfkid200444/hot-plugins/tree/builds)
+These plugins no longer receive builds or updates. Their source remains here for reference.
+
+- PetPet
+- ObamaAPI
+- Osu
+- Zoo
