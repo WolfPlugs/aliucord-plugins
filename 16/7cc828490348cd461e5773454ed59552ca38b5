@@ -1,0 +1,30 @@
+clapclap/tests/ClapMessageTest.java
+  s_fe2bb2c1526cae::t_4cf4c0f35f6345 1-17
+.github/workflows/build.yml
+  s_fe2bb2c1526cae::t_a93ea52c71c877 7-15,18,20-21,23,26,28-29,31-32,34-35,37-38,40-41,43-44,46-50,52-56,58,60-67
+clapclap/src/main/java/com/aliucord/plugins/clapclap.java
+  s_fe2bb2c1526cae::t_a93ea52c71c877 1-26
+clapclap/src/main/java/com/aliucord/plugins/ClapMessage.java
+  s_fe2bb2c1526cae::t_a93ea52c71c877 1-24
+build.gradle.kts
+  s_fe2bb2c1526cae::t_a93ea52c71c877 42-43,58,60-61,63-64
+  s_fe2bb2c1526cae::t_1c722337c2323a 62
+GlobalBadges/README.md
+  s_fe2bb2c1526cae::t_d926ac1746d982 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "167cc828490348cd461e5773454ed59552ca38b5",
+  "prompts": {},
+  "sessions": {
+    "s_fe2bb2c1526cae": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a12753-34f3-7e32-a116-d2aad5395aa0",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Wolfkid200444 <32025746+Wolfkid200444@users.noreply.github.com>"
+    }
+  }
+}
