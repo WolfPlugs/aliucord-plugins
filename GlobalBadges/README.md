@@ -8,7 +8,7 @@ This displays badges supplied by the shared service. It does not grant Discord b
 
 ## Build locally
 
-This repository uses Gradle 7.4 and Android Gradle Plugin 7.0.4. Run Gradle with JDK 11 or 17, not the system JDK 27. Also install JDK 21, which this module selects through Gradle's Java toolchain to read the current Aliucord API. The plugin still emits Java 11 bytecode. Install Android SDK Platform 31, Build Tools 30.0.2, and Platform Tools using Android Studio's SDK Manager. Set `ANDROID_SDK_ROOT` to your SDK directory, or put `sdk.dir=/absolute/path/to/Android/Sdk` in the ignored root `local.properties` file.
+The active plugins use Java. This repository uses Gradle 7.4 and Android Gradle Plugin 7.0.4. Run Gradle with JDK 11 or 17, not the system JDK 27. Also install JDK 21, which this module selects through Gradle's Java toolchain to read the current Aliucord API. The plugin still emits Java 11 bytecode. Install Android SDK Platform 31, Build Tools 30.0.2, and Platform Tools using Android Studio's SDK Manager. Set `ANDROID_SDK_ROOT` to your SDK directory, or put `sdk.dir=/absolute/path/to/Android/Sdk` in the ignored root `local.properties` file.
 
 ```bash
 cd /home/wolf/Coding/hot-plugins

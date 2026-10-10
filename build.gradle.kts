@@ -17,8 +17,6 @@ buildscript {
         classpath("com.android.tools:r8:8.3.37")
         // Aliucord gradle plugin which makes everything work and builds plugins
         classpath("com.aliucord:gradle:main-SNAPSHOT")
-        // Kotlin support. Remove if you want to use Java
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
     }
 }
 
@@ -37,14 +35,12 @@ fun Project.android(configuration: BaseExtension.() -> Unit) = extensions.getByN
 subprojects {
     apply(plugin = "com.android.library")
     apply(plugin = "com.aliucord.gradle")
-    // Remove if using Java
-    apply(plugin = "kotlin-android")
 
     // Fill out with your info
     aliucord {
         author("ThatWolf", 347096063569559553)
-        updateUrl.set("https://raw.githubusercontent.com/Wolfkid200444/hot-plugins/builds/updater.json")
-        buildUrl.set("https://raw.githubusercontent.com/Wolfkid200444/hot-plugins/builds/%s.zip")
+        updateUrl.set("https://raw.githubusercontent.com/WolfPlugs/hot-plugins/builds/updater.json")
+        buildUrl.set("https://raw.githubusercontent.com/WolfPlugs/hot-plugins/builds/%s.zip")
     }
 
     android {
@@ -59,17 +55,13 @@ subprojects {
             sourceCompatibility = JavaVersion.VERSION_11
             targetCompatibility = JavaVersion.VERSION_11
         }
+    }
 
-        tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
-            kotlinOptions {
-                jvmTarget = "11" // Required
-                // Disables some unnecessary features
-                freeCompilerArgs = freeCompilerArgs +
-                        "-Xno-call-assertions" +
-                        "-Xno-param-assertions" +
-                        "-Xno-receiver-assertions"
-            }
-        }
+    // Read the current Java 21 Aliucord API while emitting Java 11 plugin classes.
+    tasks.withType<JavaCompile>().configureEach {
+        javaCompiler.set(project.extensions.getByType<org.gradle.jvm.toolchain.JavaToolchainService>().compilerFor {
+            languageVersion.set(JavaLanguageVersion.of(21))
+        })
     }
 
     dependencies {
