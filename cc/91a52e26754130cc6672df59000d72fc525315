@@ -1,0 +1,51 @@
+GlobalBadges/src/main/java/com/aliucord/plugins/GlobalBadgesSettings.java
+  s_fe2bb2c1526cae::t_1e36f94931c5de 1-6,9-23,57-86
+  s_fe2bb2c1526cae::t_2b7bb16bbbbaf1 7-8,24-56
+GlobalBadges/tests/BadgeFeedTest.java
+  s_fe2bb2c1526cae::t_30302cc6e1de14 17-21
+  s_fe2bb2c1526cae::t_dc8b91d99335bd 1-16,22-36,38,40-41,43
+  s_fe2bb2c1526cae::t_b0620f8f222d85 37,39,42
+GlobalBadges/README.md
+  s_fe2bb2c1526cae::t_05c08399323a66 5,72-73
+  s_fe2bb2c1526cae::t_941276cde4da9a 64-67
+  s_fe2bb2c1526cae::t_b2c6a3c4eb28cb 1-2,4,6-10,12-20,22,25-50,61,63,68-71
+  s_fe2bb2c1526cae::t_30302cc6e1de14 3
+  s_fe2bb2c1526cae::t_310a08e57dc9f3 11,21,23-24,51-60,62
+GlobalBadges/build.gradle.kts
+  s_fe2bb2c1526cae::t_04a8adc7a1c60b 9,14-19
+  s_fe2bb2c1526cae::t_9e09434df8a2f4 1-2
+  s_fe2bb2c1526cae::t_1e36f94931c5de 4-8
+  s_fe2bb2c1526cae::t_e5f630f0bae048 10-13
+.github/workflows/build.yml
+  s_fe2bb2c1526cae::t_bfacc9313239d7 47
+settings.gradle.kts
+  s_fe2bb2c1526cae::t_9e09434df8a2f4 1
+  s_fe2bb2c1526cae::t_bfacc9313239d7 3
+GlobalBadges/src/main/java/com/aliucord/plugins/GlobalBadgeData.java
+  s_fe2bb2c1526cae::t_1e36f94931c5de 1-13,15-49,51-60
+  s_fe2bb2c1526cae::t_30302cc6e1de14 14,50
+README.md
+  s_fe2bb2c1526cae::t_bfacc9313239d7 8-9,11,13-18
+GlobalBadges/src/main/java/com/aliucord/plugins/GlobalBadgeImages.java
+  s_fe2bb2c1526cae::t_2bb770d9f0d768 1-101
+GlobalBadges/src/main/java/com/aliucord/plugins/GlobalBadges.java
+  s_fe2bb2c1526cae::t_f5ba5f0e295368 1,3-22,25-39,41,43-44,47-53,55-80,82-96,98-102,104-111,114-136,139-153,156-159
+build.gradle.kts
+  s_fe2bb2c1526cae::t_f27c1edccd914e 16-17
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "cc91a52e26754130cc6672df59000d72fc525315",
+  "prompts": {},
+  "sessions": {
+    "s_fe2bb2c1526cae": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a12753-34f3-7e32-a116-d2aad5395aa0",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Wolfkid200444 <32025746+Wolfkid200444@users.noreply.github.com>"
+    }
+  }
+}
