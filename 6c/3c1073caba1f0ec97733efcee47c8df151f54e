@@ -1,0 +1,14 @@
+GlobalBadges/README.md
+  h_0d2b7dea709e7c 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "6c3c1073caba1f0ec97733efcee47c8df151f54e",
+  "prompts": {},
+  "humans": {
+    "h_0d2b7dea709e7c": {
+      "author": "Wolfkid200444 <32025746+Wolfkid200444@users.noreply.github.com>"
+    }
+  }
+}
